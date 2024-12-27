@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types", 
+    ],
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ESNext",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "useDefineForClassFields": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "moduleDetection": "force",
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "preserveValueImports": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["cypress"]
+  },
+ "include": [
+  "cypress/**/*.ts", // Cypress test dosyalarını dahil et
+  "src",
+],
+
+  "exclude": [
+    "node_modules", 
+    "dist", 
+    "cypress/fixtures",  // Gerekirse fixture'ları dışarıda bırakabilirsiniz
+    "cypress/screenshots", 
+    "cypress/videos"
+  ]
+}
