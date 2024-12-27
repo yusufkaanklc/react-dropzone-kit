@@ -1,6 +1,6 @@
 {
   "name": "react-dropzone-kit",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "type": "module",
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
@@ -42,9 +42,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thinkk-Corp/react-dropzone-kit.git"
+    "url": "https://github.com/yusufkaanklc/react-dropzone-kit.git"
   },
-  "homepage": "https://github.com/Thinkk-Corp/react-dropzone-kit#readme",
+  "homepage": "https://github.com/yusufkaanklc/react-dropzone-kit#readme",
   "keywords": [
     "react",
     "dropzone",
